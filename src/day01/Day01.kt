@@ -8,13 +8,14 @@ val wordsReplace = listOf("o1e", "t2o", "th3ee", "fo4r", "fi5e", "s6x", "se7en",
 
 fun main() {
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("day01/Day01_test")
+    val testInput1 = readInput("day01/Day01_test1")
+    val testInput2 = readInput("day01/Day01_test2")
     val input = readInput("day01/Day01")
 
-    check(part1(testInput) == 142)
+    check(part1(testInput1) == 142)
     part1(input).println()
 
-    check(part2(testInput) == 281)
+    check(part2(testInput2) == 281)
     part2(input).println()
 }
 
